@@ -1,13 +1,5 @@
-function init(){
-window.addEventListener("load", (event) => {
-  console.log("page is fully loaded");
-});
- 
+function onLoadEvent() {
+  console.log("The page has finished loading!");
+}
 
-
-
-
-
-
-
-window.addEventListener('load', init);
+window.addEventListener("load", onLoadEvent);
