@@ -5,20 +5,20 @@ function onLoadEvent() {
 }
 window.addEventListener("load", onLoadEvent);
 
-// references to the button, text and output elements
-function init(){
-var button = document.getElementById("entrybutton");
-var output = document.getElementById("textoutput");
-var entryinput= document.getElementById("textentry");
 
-  // Define a function to handle button clicks
-  function handleClick() {
-    // Get the value of the input element
-    const inputValue = entryinput.value;
-    // Set the text content of the output element
-    output.innerText = `You entered: ${inputValue}`;
-  }
+//making alert me as a button
+// Get a reference to the entry button element
+var button = document.getElementById("entrybutton");
+
+// Define a function to handle button clicks
+function handleClick() {
+  alert("Button clicked!");
 }
-// Add an event listener to the button
-button.addEventListener("click", handleClick);
+
+// Add an event listener to the entry button
+entryButton.addEventListener("click", handleClick);
+
+
+
+
 window.addEventListener('load', init);
