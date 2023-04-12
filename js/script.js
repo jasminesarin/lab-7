@@ -20,7 +20,7 @@ function handleClick() {
   document.getElementById('textoutput').innerHTML = inputText.value;
   
   // Set the text content of the show results element
-  showResults.innerText = `Jasmine Sarin: ${inputValue}`;
+  alert( `Jasmine Sarin: ${inputValue}`);
   
 }
 
