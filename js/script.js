@@ -8,14 +8,11 @@ var inputText = document.getElementById('entryinput');
 // Define a function to handle button clicks
 function handleClick() {
   
-  //create a constant to catch the value of inputText variable
-  const showText = inputText.value;
-  
   //Replace text output with input text value
   document.getElementById('textoutput').innerHTML = inputText.value;
   
   // Set the text content of the alert
-  alert( "Jasmine Sarin:" + ${inputValue});
+  alert( "Jasmine Sarin:" + inputText.value);
   
 }
 
