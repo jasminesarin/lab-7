@@ -1,9 +1,4 @@
 function init(){
-//Adding a console log event to tell us that the page has loaded
-function onLoadEvent() {
-  console.log("The page has finished loading!");
-}
-window.addEventListener('load', onLoadEvent);
 
 //making alert me as a button
 // Get a reference to the entry button and input element
