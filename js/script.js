@@ -1,12 +1,14 @@
 function init(){
 
 //making alert me as a button
-// Get a reference to the entrybutton and entryinput element
+// Get a reference to the entrybutton 
 var button = document.getElementById('entrybutton');
-var inputText = document.getElementById('entryinput');
+
 
 // Define a function to handle button clicks
-function handleClick() {
+function handleClick(){
+  //creating a variable inputText to catch entryinput
+  var inputText = document.getElementById('entryinput');
   
   //Replace text output with input text value
   document.getElementById('textoutput').innerHTML = inputText.value;
