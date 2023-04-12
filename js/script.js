@@ -14,7 +14,7 @@ function handleClick(){
   document.getElementById('textoutput').innerHTML = inputText.value;
   
   // Set the text content of the alert
-  alert( "Jasmine Sarin:" + inputText.value);
+  alert( "Jasmine Sarin: " + inputText.value);
   
 }
 
