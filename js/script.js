@@ -16,7 +16,8 @@ function handleClick() {
   //create a constant to catch the value of inputText variable
   const showText = inputText.value;
   
-  //
+  //Replace text output with input text value
+  document.getElementById('textoutput').innerHTML = inputText.value;
   
   // Set the text content of the show results element
   showResults.innerText = `Jasmine Sarin: ${inputValue}`;
