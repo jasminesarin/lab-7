@@ -19,8 +19,8 @@ function handleClick() {
   //Replace text output with input text value
   document.getElementById('textoutput').innerHTML = inputText.value;
   
-  // Set the text content of the show results element
-  alert( `Jasmine Sarin: ${inputValue}`);
+  // Set the text content of the alert
+  alert( "Jasmine Sarin:" + ${inputValue});
   
 }
 
